@@ -1,0 +1,141 @@
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : WillyWonka
+* Version  : 1.0
+* Author   : sujal
+* 
+------------------*/
+::-webkit-scrollbar{
+    width: 4px;
+    color:#035aa6;
+}
+::-webkit-scrollbar-thumb {
+    background: #035aa6; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: #035aa6;
+  }
+  .color{
+      color: #035aa6;
+  }
+  #about-content a{
+      color:#035aa6 ;
+  }
+  .cv a button{
+      background: #035aa6;
+  }
+  .service-img img{
+    background: #035aa6;
+    box-shadow:0px 0px 0px 0px #035aa6 ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px #035aa6 ;
+}
+.html-progress{
+    background: #035aa6;
+}
+.js-progress{
+    background: #035aa6;
+}
+.adobe-progress{
+    background: #035aa6;
+}
+.php-progress{
+    background: #035aa6;
+}
+.jquery-progress{
+    background: #035aa6;
+}
+.seo-progress{
+    background: #035aa6;
+}
+.portfolio-text h2{
+    color: #035aa6;
+}
+.portfolio-text button{
+    color: #035aa6;
+    border: 1.5px solid #035aa6;
+}
+.portfolio-text button::before{
+    background: #035aa6;
+}
+.portfolio-image img::before{
+    background: #035aa6;
+}
+.blog-date{
+    background: #035aa6;
+}
+form button{
+    background: #035aa6;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #c70039 ;
+    }
+}
+h3{
+    background: #035aa6;
+    -webkit-background-clip: text; /* For Chrome, Safari, and Edge */
+    background-clip: text;         /* For Firefox */
+    color: transparent;            /* Makes text transparent so gradient shows through */
+    transition: all .4s ease;
+  font-size: 35px;
+  font-family: raleway;
+}
+.tab-button[aria-selected="true"]{
+    background: #035aa6;
+    -webkit-background-clip: text; /* For Chrome, Safari, and Edge */
+    background-clip: text;         /* For Firefox */
+    color: transparent;            /* Makes text transparent so gradient shows through */
+    transition: all .4s ease;
+
+}
+.tab-highlight {
+    background: #035aa6;
+
+}
+.tab-panel h3 {
+    color: #035aa6;
+}
+h3{
+    color: #035aa6;
+}
+.navigation-links a{
+    padding:10px;
+    text-decoration: none;
+    color: #285f91;
+    font-size: 30px;
+    opacity: .7;
+    transition: all .4s ease;
+}
+.navigation-links a:hover{
+    opacity: 1;
+    color: rgb(100, 255, 218);
+}
+.navigation-links a::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: monoton;
+    color:rgb(100, 255, 218);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    letter-spacing: 100px;
+    transition: all .4s ease;
+}
+.navigation-links a:hover::before{
+    content: attr(data-text);
+    opacity: 1;
+    letter-spacing: 10px;
+}

@@ -1,0 +1,138 @@
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : WillyWonka
+* Version  : 1.0
+* Author   : sujal
+* 
+------------------*/
+::-webkit-scrollbar{
+    width: 4px;
+    color:#04A777;
+}
+::-webkit-scrollbar-thumb {
+    background: #04A777; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: #04A777;
+  }
+  .color{
+      color: #04A777;
+  }
+  #about-content a{
+      color:#04A777 ;
+  }
+  .cv a button{
+      background: #04A777;
+  }
+  .service-img img{
+    background: #04A777;
+    box-shadow:0px 0px 0px 0px #04A777 ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px #04A777 ;
+}
+.html-progress{
+    background: #04A777;
+}
+.js-progress{
+    background: #04A777;
+}
+.adobe-progress{
+    background: #04A777;
+}
+.php-progress{
+    background: #04A777;
+}
+.jquery-progress{
+    background: #04A777;
+}
+.seo-progress{
+    background: #04A777;
+}
+.portfolio-text h2{
+    color: #04A777;
+}
+.portfolio-text button{
+    color: #04A777;
+    border: 1.5px solid #04A777;
+}
+.portfolio-text button::before{
+    background: #04A777;
+}
+.portfolio-image img::before{
+    background: #04A777;
+}
+.blog-date{
+    background: #04A777;
+}
+form button{
+    background: #04A777;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #c70039 ;
+    }
+}
+h3{
+    background: #04A777;
+    -webkit-background-clip: text; /* For Chrome, Safari, and Edge */
+    background-clip: text;         /* For Firefox */
+    color: transparent;            /* Makes text transparent so gradient shows through */
+    transition: all .4s ease;
+  font-size: 35px;
+  font-family: raleway;
+}
+.tab-button[aria-selected="true"]{
+    background: #04A777;
+    -webkit-background-clip: text; /* For Chrome, Safari, and Edge */
+    background-clip: text;         /* For Firefox */
+    color: transparent;            /* Makes text transparent so gradient shows through */
+    transition: all .4s ease;
+
+}
+.tab-highlight {
+    background: #04A777;
+
+}
+.tab-panel h3 {
+    color: #04A777;
+}
+.navigation-links a{
+    padding:10px;
+    text-decoration: none;
+    color: #285f91;
+    font-size: 30px;
+    opacity: .7;
+    transition: all .4s ease;
+}
+.navigation-links a:hover{
+    opacity: 1;
+    color: rgb(100, 255, 218);
+}
+.navigation-links a::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: monoton;
+    color:rgb(100, 255, 218);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    letter-spacing: 100px;
+    transition: all .4s ease;
+}
+.navigation-links a:hover::before{
+    content: attr(data-text);
+    opacity: 1;
+    letter-spacing: 10px;
+}

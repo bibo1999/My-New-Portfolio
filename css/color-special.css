@@ -1,0 +1,126 @@
+
+::-webkit-scrollbar{
+    width: 4px;
+    color:#285f91;
+}
+::-webkit-scrollbar-thumb {
+    background: #285f91; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: #285f91;
+  }
+  .color{
+      color: #285f91;
+  }
+  #about-content a{
+      color:#285f91 ;
+  }
+  .cv a button{
+      background: #285f91;
+  }
+  .service-img img{
+    background: #285f91;
+    box-shadow:0px 0px 0px 0px #285f91 ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px #285f91 ;
+}
+.html-progress{
+    background: #285f91;
+}
+.js-progress{
+    background: #285f91;
+}
+.adobe-progress{
+    background: #285f91;
+}
+.php-progress{
+    background: #285f91;
+}
+.jquery-progress{
+    background: #285f91;
+}
+.seo-progress{
+    background: #285f91;
+}
+.portfolio-text h2{
+    color: #285f91;
+}
+.portfolio-text button{
+    color: #285f91;
+    border: 1.5px solid #285f91;
+}
+.portfolio-text button::before{
+    background: #285f91;
+}
+.portfolio-image img::before{
+    background: #285f91;
+}
+.blog-date{
+    background: #285f91;
+}
+form button{
+    background: #285f91;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #285f91 ;
+    }
+}
+.tab-button[aria-selected="true"]{
+    color: #285f91;
+}
+.tab-button[aria-selected="true"] {
+    color: #285f91;
+  }
+  
+  
+  .tab-highlight {
+   background: #285f91;
+  }
+  
+  .tab-panel h3{
+  color: #285f91;
+  }
+  
+  h3 {
+  color: #285f91;
+  }
+  .navigation-links a{
+    padding:10px;
+    text-decoration: none;
+    color: #285f91;
+    font-size: 30px;
+    opacity: .7;
+    transition: all .4s ease;
+}
+.navigation-links a:hover{
+    opacity: 1;
+    color: rgb(100, 255, 218);
+}
+.navigation-links a::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: monoton;
+    color:rgb(100, 255, 218);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    letter-spacing: 100px;
+    transition: all .4s ease;
+}
+.navigation-links a:hover::before{
+    content: attr(data-text);
+    opacity: 1;
+    letter-spacing: 10px;
+}
